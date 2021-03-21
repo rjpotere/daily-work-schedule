@@ -83,3 +83,7 @@ textarea:focus {
   box-shadow: 0 0 5px #06aed5;
 }
 
+.last-time-slot {
+  margin-bottom: 2rem;
+}
+
