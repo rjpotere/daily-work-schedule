@@ -15,5 +15,18 @@ $('.saveBtn').on('click',function() {
      localStorage.setItem(time,task); 
 })
 
+
+$('#hour-09 .task').val(localStorage.getItem("hour-09"));
+$('#hour-10 .task').val(localStorage.getItem("hour-10"));
+$('#hour-11 .task').val(localStorage.getItem("hour-11"));
+$('#hour-12 .task').val(localStorage.getItem("hour-12"));
+$('#hour-13 .task').val(localStorage.getItem("hour-13"));
+$('#hour-14 .task').val(localStorage.getItem("hour-14"));
+$('#hour-15 .task').val(localStorage.getItem("hour-15"));
+$('#hour-16 .task').val(localStorage.getItem("hour-16"));
+$('#hour-17 .task').val(localStorage.getItem("hour-17"));
+
+
+
 })
 
