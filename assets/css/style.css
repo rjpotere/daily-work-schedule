@@ -70,3 +70,16 @@ textarea {
   transition: all 0.3s ease-in-out;
 }
 
+textarea:hover {
+  border: #06aed5;
+  transition: all 0.2ms ease-in;
+  border-width: 2px;
+  border-style: solid;
+}
+
+textarea:focus {
+  border: #06aed5;
+  border-style: solid;
+  box-shadow: 0 0 5px #06aed5;
+}
+
