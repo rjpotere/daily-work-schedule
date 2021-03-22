@@ -21,18 +21,14 @@ textarea {
   border-bottom: 10px solid black;
 }
 
-.description {
-  white-space: pre-wrap;
-}
-
 .time-block {
   text-align: center;
   border-radius: 15px;
 }
-
+/*commenetd out the below to center time/show save button with smaller screens*/
 .row {
   /*white-space: pre-wrap;*/
-  height: 80px;
+  /*height: 80px;*/
   border-top: 1px solid white;
 }
 
@@ -72,7 +68,7 @@ textarea {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
 }
-
+/*add border on hover to help indicate which time slot you are on/ show user you can click to type*/
 textarea:hover {
   border: #06aed5;
   transition: all 0.2ms ease-in;
@@ -90,3 +86,14 @@ textarea:focus {
   margin-bottom: 2rem;
 }
 
+.task {
+  padding: 20px;
+}
+/*media query added to style the save button*/
+@media (max-width: 768px) { 
+  .saveBtn {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 0;
+  }
+}

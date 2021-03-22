@@ -27,9 +27,8 @@ $('#hour-15 .task').val(localStorage.getItem("hour-15"));
 $('#hour-16 .task').val(localStorage.getItem("hour-16"));
 $('#hour-17 .task').val(localStorage.getItem("hour-17"));
 
-
+//show colors based on time of day.
 var taskArea = $(".task")
-//show colors based on time of day
 
 function changeColor() {
     var currentTime = parseInt(moment().format('H'));
@@ -37,6 +36,8 @@ function changeColor() {
     $(taskArea).each(function(){
         //for every time-block class
         var workList = parseInt($(this).attr('id').split('-')[1]);
+
+        //console log worklist and currentime to ensure they both show as intergers.
         console.log(workList)
 
         console.log(currentTime)
