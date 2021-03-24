@@ -1,5 +1,7 @@
 # daily-work-schedule
 
+https://rjpotere.github.io/daily-work-schedule/
+
 This application allows the user to input their busy schedule which will save to local storage. This will allow the user to refresh the screen and their schedule will re-load on the screen.
 
 ![photo](images/screen-shot.png)
